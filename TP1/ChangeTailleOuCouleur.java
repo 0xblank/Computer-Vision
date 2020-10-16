@@ -4,7 +4,7 @@ import javax.swing.*;
 
 import static java.lang.Math.exp;
 import static oracle.jrockit.jfr.events.Bits.intValue;
-
+/*
 public class ChangeTailleOuCouleur {
 
 static public void main(String argv[]) {
@@ -206,4 +206,4 @@ static public void main(String argv[]) {
     finale.add(imgOut);
     finale.repaint();
 	}
-}
+}*/

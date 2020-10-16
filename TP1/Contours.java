@@ -1,9 +1,11 @@
+package TP1;
+
 import java.awt.*;
 import java.awt.image.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
-
+/*
 public class Contours {
 
     static public void main(String argv[]) {
@@ -45,8 +47,8 @@ public class Contours {
                 Color coul=new Color(tableauDePixels[l * largeur + c]); //couleur pixel courant
                 tabx[l*largeur+c]=coul.getGreen();
 			
-			/*if (coul.equals(couleurDuFond)) { // s'il est couleur fond
-				tableauDePixels[l*largeur + c]=modifie.getRGB(); // on le change*/
+			//if (coul.equals(couleurDuFond)) { // s'il est couleur fond
+			//	tableauDePixels[l*largeur + c]=modifie.getRGB(); // on le change
             }
         }
 
@@ -87,14 +89,7 @@ public class Contours {
                 tabZ[l*largeur+c] = (int) (tabYplus[l*largeur+c]+ tabYmoins[l*largeur+c]);
             }
         }
-    
-    /* Régénération de pixels RVB = [vvv] 
-    for (int l = 0; l < hauteur; l++) {
-		for (int c = 0; c < largeur; c++) {
-			int vert = tabY[l*largeur+c];
-			Color coul=new Color(vert,vert,vert); // couleur pixeel en NDG
-			tableauDePixels[l*largeur+c]=coul.getRGB(); //récupère 3 comp (VVV)
-		}}*/
+
 
         for (int l=0; l<hauteur; l++) {
             for (int c=0; c<largeur; c++){
@@ -125,4 +120,4 @@ public class Contours {
 
     }
 
-}
+}*/

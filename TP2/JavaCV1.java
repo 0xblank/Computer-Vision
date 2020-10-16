@@ -1,10 +1,12 @@
+package TP2;
+
 import static com.googlecode.javacv.cpp.opencv_core.*;
 import static com.googlecode.javacv.cpp.opencv_imgproc.*;
 import static com.googlecode.javacv.cpp.opencv_highgui.*;
 
 public class JavaCV1 {
 	public static void main(String[] args) {
-		IplImage img=cvLoadImage("Penguins.jpg");
+		IplImage img=cvLoadImage("src/TP2/Penguins.jpg");
 		IplImage hsvimg =cvCreateImage(cvGetSize(img),IPL_DEPTH_8U,3);
 		IplImage grayimg =cvCreateImage(cvGetSize(img),IPL_DEPTH_8U,1);
 		
