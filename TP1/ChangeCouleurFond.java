@@ -3,7 +3,7 @@ import java.awt.image.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
-
+/*
 public class ChangeCouleurFond {
 
     static public void main(String argv[]) {
@@ -55,4 +55,4 @@ public class ChangeCouleurFond {
 
     }
 
-}
+}*/

@@ -3,7 +3,7 @@ import java.awt.image.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
-
+/*
 public class Flou {
 
     static public void main(String argv[]) {
@@ -43,7 +43,7 @@ public class Flou {
                 tabx[l*largeur+c]=coul.getGreen();
 			
 			/*if (coul.equals(couleurDuFond)) { // s'il est couleur fond
-				tableauDePixels[l*largeur + c]=modifie.getRGB(); // on le change*/
+				tableauDePixels[l*largeur + c]=modifie.getRGB(); // on le change
             }
         }
 
@@ -93,4 +93,4 @@ public class Flou {
 
     }
 
-}
+}*/

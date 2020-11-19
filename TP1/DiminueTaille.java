@@ -3,7 +3,7 @@ import java.awt.image.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
-
+/*
 public class DiminueTaille {
 
     static public void main(String argv[]) {
@@ -54,4 +54,4 @@ public class DiminueTaille {
         finale.miseAJour();
     }
 
-}
+}*/
